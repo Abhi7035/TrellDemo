@@ -266,7 +266,7 @@ public class HgLVideoTrimmer extends FrameLayout {
 
     @RequiresApi(api = Build.VERSION_CODES.GINGERBREAD_MR1)
     private void onSaveClicked() {
-        Toast.makeText(getContext(),"Start = "+mStartPosition+"msec\nEnd = "+mEndPosition+",msec",Toast.LENGTH_SHORT).show();
+        Toast.makeText(getContext(),"Start = "+mStartPosition+"msec\nEnd = "+mEndPosition+"msec",Toast.LENGTH_SHORT).show();
     }
 
     private void onClickVideoPlayPause() {
